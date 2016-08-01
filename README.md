@@ -1,0 +1,5 @@
+ - Make sure you have node installed
+ - Go to https://api.slack.com/tokens and generate a key
+ - run `./index {YOUR TOKEN}` to get a list of rooms
+ - run `./index {YOUR TOKEN} {ROOM ID}` to leave every minute
+ - there is a third argument which is the frequency in ms defaults to `60000`
